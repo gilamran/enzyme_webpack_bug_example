@@ -1,6 +1,7 @@
 module.exports = {
     entry: {
-        test: './app.js'
+        app: './app.js',
+        tests: './app.spec.js'
     },
     output: {
         path: 'dist/',

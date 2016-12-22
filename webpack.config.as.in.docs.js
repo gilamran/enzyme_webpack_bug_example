@@ -1,6 +1,7 @@
 module.exports = {
     entry: {
-        test: './app.js'
+        app: './app.js',
+        tests: './app.spec.js'
     },
     output: {
         path: 'dist/',
@@ -22,6 +23,8 @@ module.exports = {
         "cheerio": 'window',
         "react/addons": true,
         "react/lib/ExecutionEnvironment": true,
-        "react/lib/ReactContext": true
+        "react/lib/ReactContext": true,
+        "react": 'React',   // will be bundled
+        "react-dom": 'ReactDOM'   // will be bundled
     },
 };

@@ -1,3 +1,3 @@
-import * as enzyme from 'enzyme';
+import * as react from 'react';
 
-console.log(enzyme);
+console.log('This is the app');
